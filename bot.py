@@ -246,7 +246,7 @@ def format_map_info(info):
             f"<b>📊 الحالة:</b> {info['state_text']}\n<b>📍 المنطقة:</b> {info['region']}")
 
 # ---------- BOT ADMIN / USERS ----------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8731286183:AAEq5mVMBmkVtTuUeMr7iGStN2G6et_r6-A")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8976382861:AAE2bbirrONk7JzkcJzqhWbYTW0laOdJ-xE")
 USERS_FILE = BASE / "users.json"
 try:
     USERS = json.loads(USERS_FILE.read_text(encoding="utf-8")) if USERS_FILE.exists() else {}
